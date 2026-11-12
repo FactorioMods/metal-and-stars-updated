@@ -1,6 +1,6 @@
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
-local asset_graphics = require("__metal-and-stars__.prototypes.entity.gravity-assembler-visuals")
+local asset_graphics = require("__metal-and-stars-updated__.prototypes.entity.gravity-assembler-visuals")
 local meld = require("meld")
 
 local item_name = "volantus-assembler"
@@ -78,7 +78,7 @@ local building_entity =
   circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
   circuit_connector = circuit_connector_definitions["assembling-machine"],
   alert_icon_shift = util.by_pixel(0, -12),
-  crafting_categories = {"crafting", "basic-crafting", "advanced-crafting", "nanotech"},
+  crafting_categories = {"crafting",  "advanced-crafting", "nanotech"},
   crafting_speed = 3,
   energy_source =
   {

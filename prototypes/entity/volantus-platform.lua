@@ -11,7 +11,7 @@ local tile = meld(table.deepcopy(data.raw.tile["concrete"]), {
         transition = data.raw.tile["concrete"].variants.transition,
         material_background =
         {
-            picture = "__metal-and-stars-graphics-2__/graphics/terrain/rusty-tile.png",
+            picture = "__metal-and-stars-graphics-2-updated__/graphics/terrain/rusty-tile.png",
             count = 8,
             scale = 0.5
         },
@@ -24,7 +24,7 @@ local tile = meld(table.deepcopy(data.raw.tile["concrete"]), {
 data:extend {tile}
 
 local platform_thruster = {
-    filename = "__metal-and-stars-graphics-2__/graphics/entity/volantus-platform/platform-thruster.png",
+    filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/volantus-platform/platform-thruster.png",
     width = 149,
     height = 105,
     frame_count = 1,
@@ -32,7 +32,7 @@ local platform_thruster = {
 }
 
 local platform_thruster_emission = {
-    filename = "__metal-and-stars-graphics-2__/graphics/entity/volantus-platform/platform-thruster-emission.png",
+    filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/volantus-platform/platform-thruster-emission.png",
     width = 149,
     height = 105,
     draw_as_glow = true,
@@ -53,7 +53,7 @@ local platform_thruster_flame = {
 }
 
 local platform_shadow = {
-    filename = "__metal-and-stars-graphics-2__/graphics/entity/volantus-platform/platform-shadow.png",
+    filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/volantus-platform/platform-shadow.png",
     width = 1344,
     height = 1344,
   }

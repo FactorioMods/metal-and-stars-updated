@@ -1,17 +1,17 @@
 {
-  "name": "metal-and-stars",
-  "version": "0.2.0",
-  "title": "Metal and Stars",
-  "author": "5forSilver",
+  "name": "metal-and-stars-updated",
+  "version": "0.1.21",
+  "title": "Metal and Stars: Updated",
+  "author": "5forSilver; johnmart19 / FactorioMods",
   "description": "It's a big universe out there, and there are other ways to leave the solar system. Several new destinations with new machines, technologies, and unique processes",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "space-age >= 2.0.28",
-    "base >= 2.0.28",
+    "base >= 2.1.24",
     "? quality",
-    "common-prototypes >= 0.0.4",
-    "metal-and-stars-graphics >= 0.0.4",
-    "metal-and-stars-graphics-2 >= 0.0.3",
+    "common-prototypes-updated >= 0.0.4",
+    "metal-and-stars-graphics-updated >= 0.0.4",
+    "metal-and-stars-graphics-2-updated >= 0.0.3",
     "ArmouredBiters >= 1.2.1",
     "PlanetsLib >= 1.7.4",
     "? PlanetsLibTiers >= 1.0.2",
@@ -30,5 +30,8 @@
   "spoiling_required": true,
   "freezing_required": true,
   "segmented_units_required": true,
-  "expansion_shaders_required": true
+  "expansion_shaders_required": true,
+  "migrates_from": [
+    "metal-and-stars"
+  ]
 }

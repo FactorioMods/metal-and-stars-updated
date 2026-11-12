@@ -1,3 +1,4 @@
+local migration_state = require("migration-state")
 -- Forces perpetual daylight and hides cloud shadows on the mod's always-day
 -- surfaces: Neumann V ("shipyard") and Circa ("ringworld").
 --
@@ -39,10 +40,12 @@ end)
 
 -- 2. Handles a brand-new save game initialization
 script.on_init(function()
+    migration_state.adopt()
     migrate_all_surfaces()
 end)
 
 -- 3. Handles adding/updating the mod on an existing save game
 script.on_configuration_changed(function(data)
+    migration_state.adopt()
     migrate_all_surfaces()
 end)

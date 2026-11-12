@@ -3,20 +3,20 @@ data:extend({
         type = "recipe",
         name = "aspheric-lens-recycling",
         subgroup = "other",
-        category = "recycling",
+        categories = {"recycling"},
         hidden = true,
         enabled = true,
         unlock_results = false,
         icons = {
             {
-              icon = "__quality__/graphics/icons/recycling.png"
+              icon = "__recycler__/graphics/icons/recycling.png"
             },
             {
-              icon = "__metal-and-stars-graphics__/graphics/icons/glass-lens.png",
+              icon = "__metal-and-stars-graphics-updated__/graphics/icons/glass-lens.png",
               scale = 0.4
             },
             {
-              icon = "__quality__/graphics/icons/recycling-top.png"
+              icon = "__recycler__/graphics/icons/recycling-top.png"
             }
           },
         order = "c[lithium]-b[lithium-plate]",
@@ -32,21 +32,21 @@ data:extend({
       type = "recipe",
       name = "depleted-fuel-cell-recycling",
       subgroup = "other",
-      category = "recycling",
+      categories = {"recycling"},
       hidden = true,
       enabled = true,
       unlock_results = false,
       
       icons = {
           {
-            icon = "__quality__/graphics/icons/recycling.png"
+            icon = "__recycler__/graphics/icons/recycling.png"
           },
           {
-            icon = "__metal-and-stars-graphics__/graphics/icons/empty-fuel-cell.png",
+            icon = "__metal-and-stars-graphics-updated__/graphics/icons/empty-fuel-cell.png",
             scale = 0.4
           },
           {
-            icon = "__quality__/graphics/icons/recycling-top.png"
+            icon = "__recycler__/graphics/icons/recycling-top.png"
           }
         },
       order = "c[lithium]-b[lithium-plate]",

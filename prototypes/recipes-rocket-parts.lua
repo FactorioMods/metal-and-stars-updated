@@ -9,7 +9,7 @@ data:extend({
         energy_required = 3,
         enabled = false,
         hide_from_player_crafting = true,
-        category = "rocket-building",
+        categories = {"rocket-building"},
         order = "b[rocket-part]-ab[nano]",
         ingredients =
         {
@@ -33,7 +33,7 @@ data:extend({
         energy_required = 3,
         enabled = false,
         hide_from_player_crafting = true,
-        category = "rocket-building",
+        categories = {"rocket-building"},
         order = "b[rocket-part]-ac[ring]",
         ingredients =
         {
@@ -52,7 +52,7 @@ data:extend({
         energy_required = 3,
         enabled = false,
         hide_from_player_crafting = true,
-        category = "rocket-building",
+        categories = {"rocket-building"},
         order = "b[rocket-part]-ac[anomalous]",
         ingredients =
         {

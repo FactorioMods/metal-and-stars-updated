@@ -125,11 +125,11 @@ local ice_transitions =
   {
     to_tiles = lava_tile_type_names,
     transition_group = lava_transition_group_id,
-    spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone.png",
-    lightmap_layout = { spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone-lightmap.png" },
+    spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone.png",
+    lightmap_layout = { spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-lightmap.png" },
      -- this added the lightmap spritesheet
     layout = tile_spritesheet_layout.transition_16_16_16_4_4,
-    lightmap_layout = { spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone-lightmap.png" },
+    lightmap_layout = { spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-lightmap.png" },
      -- this added the lightmap spritesheet
     effect_map_layout =
     {
@@ -172,7 +172,7 @@ data:extend({
     collision_mask = tile_collision_masks.ground(),
     autoplace = {probability_expression = "snow_patchy"},
     layer = aquilo_tile_offset_frozen + 5,
-    variants = material_background("__metal-and-stars-graphics__/graphics/terrain/snow-patchy-grass-8x.png", 8),
+    variants = material_background("__metal-and-stars-graphics-updated__/graphics/terrain/snow-patchy-grass-8x.png", 8),
 
     transitions = ice_transitions,
     transitions_between_transitions = ice_transitions_between_transitions,

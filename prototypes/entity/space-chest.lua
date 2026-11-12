@@ -5,7 +5,7 @@ data:extend({
     {
         type = "container",
         name = "space-chest-ms",
-        icon = "__metal-and-stars-graphics__/graphics/icons/space-chest.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/icons/space-chest.png",
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 0.2, result = "space-chest-ms"},
         max_health = 350,
@@ -35,7 +35,7 @@ data:extend({
           layers =
           {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/space-chest/space-chest.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/space-chest/space-chest.png",
               priority = "extra-high",
               width = 66,
               height = 76,
@@ -60,7 +60,7 @@ data:extend({
       {
         type = "corpse",
         name = "space-chest-ms-remnants",
-        icon = "__metal-and-stars-graphics__/graphics/icons/space-chest.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/icons/space-chest.png",
         flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "storage-remnants",
@@ -75,7 +75,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-          filename = "__metal-and-stars-graphics__/graphics/entity/space-chest/space-chest-remnants.png",
+          filename = "__metal-and-stars-graphics-updated__/graphics/entity/space-chest/space-chest-remnants.png",
           line_length = 1,
           width = 126,
           height = 78,

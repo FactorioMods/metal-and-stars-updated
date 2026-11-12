@@ -19,7 +19,7 @@ local smooth_ice_sounds = sound_variations("__space-age__/sound/walking/smooth-i
 local frozen_concrete_sounds = sound_variations("__space-age__/sound/walking/frozen-concrete", 11, 0.8)
 
 local floating_cloud_variants = tile_variations_template(
-  "__metal-and-stars-graphics-2__/graphics/terrain/clouds-floating.png", "__base__/graphics/terrain/masks/transition-4.png",
+  "__metal-and-stars-graphics-2-updated__/graphics/terrain/clouds-floating.png", "__base__/graphics/terrain/masks/transition-4.png",
   {
     max_size = 4,
     [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -41,7 +41,7 @@ data:extend({
         tint = {255, 182, 182},
         layer =  0,
         variants = tile_variations_template(
-          "__metal-and-stars-graphics-2__/graphics/terrain/volantus-surface.png", "__base__/graphics/terrain/masks/transition-4.png",
+          "__metal-and-stars-graphics-2-updated__/graphics/terrain/volantus-surface.png", "__base__/graphics/terrain/masks/transition-4.png",
           {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -67,7 +67,7 @@ data:extend({
         tint = {5, 5, 5},
         layer =  5,
         variants = tile_variations_template(
-          "__metal-and-stars-graphics-2__/graphics/terrain/clouds-crests.png", "__base__/graphics/terrain/masks/transition-4.png",
+          "__metal-and-stars-graphics-2-updated__/graphics/terrain/clouds-crests.png", "__base__/graphics/terrain/masks/transition-4.png",
           {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },

@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "overclock-module",
-        icon = "__metal-and-stars-graphics__/graphics/technology/pollution-module-1.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/pollution-module-1.png",
         icon_size = 256,
         effects =
         {
@@ -27,7 +27,7 @@ data:extend({
       {
         type = "technology",
         name = "overclock-module-2",
-        icon = "__metal-and-stars-graphics__/graphics/technology/pollution-module-2.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/pollution-module-2.png",
         icon_size = 256,
         effects =
         {
@@ -54,7 +54,7 @@ data:extend({
       {
         type = "technology",
         name = "overclock-module-3",
-        icon = "__metal-and-stars-graphics__/graphics/technology/pollution-module-3.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/pollution-module-3.png",
         icon_size = 256,
         effects =
         {
@@ -80,7 +80,7 @@ data:extend({
     {
         type = "technology",
         name = "prototype-mech-armor",
-        icon = "__metal-and-stars-graphics__/graphics/technology/prototype-mech-armor.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/prototype-mech-armor.png",
         icon_size = 256,
         effects =
         {
@@ -99,8 +99,7 @@ data:extend({
             {"logistic-science-pack", 1},
             {"chemical-science-pack", 1},
             {"military-science-pack", 1},
-            {"utility-science-pack", 1},
-            {"space-science-pack", 1}
+            {"utility-science-pack", 1}
           },
           time = 30
         }
@@ -108,7 +107,7 @@ data:extend({
     {
         type = "technology",
         name = "insulated-rocket-body",
-        icon = "__metal-and-stars-graphics__/graphics/technology/insulated-rocket-body.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/insulated-rocket-body.png",
         icon_size = 256,
         effects =
         {
@@ -133,7 +132,7 @@ data:extend({
     {
         type = "technology",
         name = "superdense-rocket-fuel",
-        icon = "__metal-and-stars-graphics__/graphics/technology/superdense-rocket-fuel.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/superdense-rocket-fuel.png",
         icon_size = 256,
         effects =
         {
@@ -158,7 +157,7 @@ data:extend({
     {
         type = "technology",
         name = "pyrolysis",
-        icon = "__metal-and-stars-graphics__/graphics/technology/pyrolysis.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/technology/pyrolysis.png",
         icon_size = 256,
         effects =
         {
@@ -187,7 +186,7 @@ data:extend({
   {
     type = "technology",
     name = "alternative-asteroid-processing",
-    icon = "__metal-and-stars-graphics__/graphics/technology/alternative-asteroid-processing.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/alternative-asteroid-processing.png",
     icon_size = 256,
     effects =
     {
@@ -216,7 +215,7 @@ data:extend({
  {
     type = "technology",
     name = "precursor-machines",
-    icon = "__metal-and-stars-graphics__/graphics/technology/precursor-machines.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/precursor-machines.png",
     icon_size = 256,
     effects =
     {
@@ -247,7 +246,7 @@ data:extend({
  {
     type = "technology",
     name = "high-speed-processor",
-    icon = "__metal-and-stars-graphics__/graphics/technology/high-speed-processor.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/high-speed-processor.png",
     icon_size = 256,
     effects =
     {
@@ -273,7 +272,7 @@ data:extend({
  {
     type = "technology",
     name = "quantum-ore-conversion-1",
-    icon = "__metal-and-stars-graphics__/graphics/technology/quantum-ore-conversion-1.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/quantum-ore-conversion-1.png",
     icon_size = 256,
     effects =
     {
@@ -306,7 +305,7 @@ data:extend({
  {
     type = "technology",
     name = "dark-matter-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/technology/dark-matter-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/dark-matter-fuel.png",
     icon_size = 256,
     effects =
     {
@@ -343,7 +342,7 @@ data:extend({
  {
     type = "technology",
     name = "dark-matter-reactor-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/technology/dark-matter-fuel-cell.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/technology/dark-matter-fuel-cell.png",
     icon_size = 256,
     effects =
     {
@@ -369,7 +368,7 @@ data:extend({
  {
   type = "technology",
   name = "gauss-rockets",
-  icon = "__metal-and-stars-graphics__/graphics/technology/gauss-rockets.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/technology/gauss-rockets.png",
   icon_size = 256,
   effects =
   {
@@ -398,7 +397,7 @@ data:extend({
 {
   type = "technology",
   name = "antimatter-robots",
-  icon = "__metal-and-stars-graphics__/graphics/technology/antimatter-robots.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/technology/antimatter-robots.png",
   icon_size = 256,
   effects =
   {
@@ -427,7 +426,7 @@ data:extend({
 {
   type = "technology",
   name = "thorium-ammo",
-  icon = "__metal-and-stars-graphics__/graphics/technology/thorium-ammo.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/technology/thorium-ammo.png",
   icon_size = 256,
   effects =
   {
@@ -456,7 +455,7 @@ data:extend({
 {
   type = "technology",
   name = "thorium-enrichment",
-  icon = "__metal-and-stars-graphics__/graphics/technology/thorium-enrichment.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/technology/thorium-enrichment.png",
   icon_size = 256,
   effects =
   {
@@ -487,7 +486,7 @@ data:extend({
   {
     type = "technology",
     name = "mechanical-bioculture",
-    icon = "__metal-and-stars-graphics-2__/graphics/technology/pathogen-lab-icon-big.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/technology/pathogen-lab-icon-big.png",
     icon_size = 256,
     effects =
     {
@@ -512,7 +511,7 @@ data:extend({
   {
     type = "technology",
     name = "advanced-bioculture",
-    icon = "__metal-and-stars-graphics-2__/graphics/technology/bacteria-cultivation.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/technology/bacteria-cultivation.png",
     icon_size = 256,
     effects =
     {

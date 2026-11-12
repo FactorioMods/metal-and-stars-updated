@@ -8,7 +8,7 @@ local building_entity =
 {
   type = "assembling-machine",
   name = item_name,
-  icon = "__metal-and-stars-graphics-2__/graphics/icons/pathogen-lab.png",
+  icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/pathogen-lab.png",
   flags = {"placeable-neutral", "placeable-player", "player-creation"},
   minable = {mining_time = 0.2, result = item_name},
   max_health = 300,
@@ -105,7 +105,7 @@ local building_entity =
       animation = {
         layers = {
           {
-            filename = "__metal-and-stars-graphics-2__/graphics/entity/microculture-vat/pathogen-lab-hr-shadow.png",
+            filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/microculture-vat/pathogen-lab-hr-shadow.png",
             priority = "high",
             width = 800,
             height = 700,
@@ -127,7 +127,7 @@ local building_entity =
             stripes =
             {
               {
-                filename = "__metal-and-stars-graphics-2__/graphics/entity/microculture-vat/pathogen-lab-hr-animation.png",
+                filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/microculture-vat/pathogen-lab-hr-animation.png",
                 width_in_frames = 8,
                 height_in_frames = 8,
               },
@@ -150,7 +150,7 @@ local building_entity =
             stripes =
             {
               {
-                filename = "__metal-and-stars-graphics-2__/graphics/entity/microculture-vat/pathogen-lab-hr-tint-RGB.png",
+                filename = "__metal-and-stars-graphics-2-updated__/graphics/entity/microculture-vat/pathogen-lab-hr-tint-RGB.png",
                 width_in_frames = 8,
                 height_in_frames = 8,
               },

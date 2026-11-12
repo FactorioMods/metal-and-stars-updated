@@ -3,10 +3,10 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-rocket-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-rocket-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-rocket-fuel.png",
     energy_required = 5,
     enabled = false,
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = "liquid-fuel",
     ingredients =
     {
@@ -24,10 +24,10 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-nuclear-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-nuclear-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-nuclear-fuel.png",
     energy_required = 5,
     enabled = false,
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = "liquid-fuel",
     ingredients =
     {
@@ -45,10 +45,10 @@ data:extend({
   {
     type = "recipe",
     name = "liquid-dark-matter-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-dark-matter-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-dark-matter-fuel.png",
     energy_required = 5,
     enabled = false,
-    category = "compression",
+    categories = {"compression"},
     subgroup = "liquid-fuel",
     ingredients =
     {
@@ -67,10 +67,10 @@ data:extend({
   {
     type = "recipe",
     name = "empty-liquid-rocket-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-rocket-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-rocket-fuel.png",
     energy_required = .04,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     subgroup = "empty-barrel",
     ingredients =
     {
@@ -88,10 +88,10 @@ data:extend({
   {
     type = "recipe",
     name = "empty-liquid-nuclear-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-nuclear-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-nuclear-fuel.png",
     energy_required = .04,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     subgroup = "empty-barrel",
     ingredients =
     {
@@ -109,10 +109,10 @@ data:extend({
   {
     type = "recipe",
     name = "empty-liquid-dark-matter-fuel",
-    icon = "__metal-and-stars-graphics__/graphics/icons/liquid-dark-matter-fuel.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-dark-matter-fuel.png",
     energy_required = .04,
     enabled = false,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     subgroup = "empty-barrel",
     ingredients =
     {
@@ -131,10 +131,10 @@ data:extend({
     {
       type = "recipe",
       name = "canister-liquid-rocket-fuel",
-      icon = "__metal-and-stars-graphics__/graphics/icons/liquid-rocket-fuel.png",
+      icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-rocket-fuel.png",
       energy_required = .04,
       enabled = false,
-      category = "crafting-with-fluid",
+      categories = {"crafting-with-fluid"},
       subgroup = "fill-barrel",
       ingredients =
       {
@@ -152,10 +152,10 @@ data:extend({
     {
       type = "recipe",
       name = "canister-liquid-nuclear-fuel",
-      icon = "__metal-and-stars-graphics__/graphics/icons/liquid-nuclear-fuel.png",
+      icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-nuclear-fuel.png",
       energy_required = .04,
       enabled = false,
-      category = "crafting-with-fluid",
+      categories = {"crafting-with-fluid"},
       subgroup = "fill-barrel",
       ingredients =
       {
@@ -173,10 +173,10 @@ data:extend({
     {
       type = "recipe",
       name = "canister-liquid-dark-matter-fuel",
-      icon = "__metal-and-stars-graphics__/graphics/icons/liquid-dark-matter-fuel.png",
+      icon = "__metal-and-stars-graphics-updated__/graphics/icons/liquid-dark-matter-fuel.png",
       energy_required = .04,
       enabled = false,
-      category = "crafting-with-fluid",
+      categories = {"crafting-with-fluid"},
       subgroup = "fill-barrel",
       ingredients =
       {

@@ -1,6 +1,6 @@
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
-local asset_graphics = require("__metal-and-stars__.prototypes.entity.quantum-stabilizer-visuals")
+local asset_graphics = require("__metal-and-stars-updated__.prototypes.entity.quantum-stabilizer-visuals")
 local meld = require("meld")
 
 local item_name = "ms-quantum-stabilizer"
@@ -29,7 +29,7 @@ local building_entity =
   icon_draw_specification = {scale = 2, shift = {0, -0.3}},
   icons_positioning =
   {
-    {inventory_index = defines.inventory.assembling_machine_modules, shift = {0, 1.25}}
+    {inventory_index = defines.inventory.crafter_modules, shift = {0, 1.25}}
   },
   allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
   module_specification = {module_slots = 2},

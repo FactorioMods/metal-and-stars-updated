@@ -4,13 +4,13 @@ data:extend({
 {
     type = "item",
     name = "algae-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria.png",
     pictures =
     {
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
     },
     subgroup = "agriculture-processes",
     order = "b[bioculture]-c[algae-bacteria]",
@@ -26,13 +26,13 @@ data:extend({
   {
     type = "item",
     name = "ammoniac-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria.png",
     pictures =
     {
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
     },
     subgroup = "agriculture-processes",
     order = "b[bioculture]-c[ammoniac-bacteria]",
@@ -48,13 +48,13 @@ data:extend({
   {
     type = "item",
     name = "petro-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria.png",
     pictures =
     {
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
     },
     subgroup = "agriculture-processes",
     order = "b[bioculture]-c[petro-bacteria]",
@@ -70,13 +70,13 @@ data:extend({
   {
     type = "item",
     name = "radio-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria.png",
     pictures =
     {
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
     },
     subgroup = "agriculture-processes",
     order = "b[bioculture]-c[radio-bacteria]",
@@ -92,13 +92,13 @@ data:extend({
   {
     type = "item",
     name = "thermo-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria.png",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria.png",
     pictures =
     {
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
-      { size = 64, filename = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria-1.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria-2.png", scale = 0.5, mipmap_count = 4 },
+      { size = 64, filename = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria-3.png", scale = 0.5, mipmap_count = 4 },
     },
     subgroup = "agriculture-processes",
     order = "b[bioculture]-c[thermo-bacteria]",
@@ -115,13 +115,13 @@ data:extend({
   {
     type = "recipe",
     name = "thermo-bacteria-cultivation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[thermo]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     ingredients =
@@ -131,23 +131,23 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "thermo-bacteria", amount = 7},
+      {type = "item", always_fresh = true, name = "thermo-bacteria", amount = 7},
       {
-        type = "item",
+        type = "item", always_fresh = true,
         name = "iron-ore",
-        probability = 0.2,
+        independent_probability = 0.2,
         amount = 1
       },
       {
-        type = "item",
+        type = "item", always_fresh = true,
         name = "copper-ore",
-        probability = 0.2,
+        independent_probability = 0.2,
         amount = 1
       },
       {
-        type = "item",
+        type = "item", always_fresh = true,
         name = "stone",
-        probability = 0.2,
+        independent_probability = 0.2,
         amount = 1
       },
     },
@@ -163,13 +163,13 @@ data:extend({
   {
     type = "recipe",
     name = "thermo-bacteria-fermentation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[thermo]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     surface_conditions =
@@ -188,7 +188,7 @@ data:extend({
     {
       {type = "fluid", name = "crude-oil", amount = 10},
       {type = "fluid", name = "water", amount = 1},
-      {type = "item", name = "calcite", amount = 1}
+      {type = "item", always_fresh = true, name = "calcite", amount = 1}
     },
     crafting_machine_tint =
     {
@@ -202,13 +202,13 @@ data:extend({
   {
     type = "recipe",
     name = "radio-bacteria-cultivation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[radio]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     ingredients =
@@ -218,8 +218,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "radio-bacteria", amount = 49},
-      {type = "item", name = "uranium-235", amount = 1},
+      {type = "item", always_fresh = true, name = "radio-bacteria", amount = 49},
+      {type = "item", always_fresh = true, name = "uranium-235", amount = 1},
     },
     crafting_machine_tint =
     {
@@ -233,13 +233,13 @@ data:extend({
   {
     type = "recipe",
     name = "petro-bacteria-cultivation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[petro]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     ingredients =
@@ -250,8 +250,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "petro-bacteria", amount = 300},
-      {type = "item", name = "iron-plate", amount = 100},
+      {type = "item", always_fresh = true, name = "petro-bacteria", amount = 300},
+      {type = "item", always_fresh = true, name = "iron-plate", amount = 100},
       {type = "fluid", name = "water", amount = 5000},
     },
     crafting_machine_tint =
@@ -266,13 +266,13 @@ data:extend({
   {
     type = "recipe",
     name = "ammoniac-bacteria-cultivation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/ammoniac-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/ammoniac-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[ammoniac]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     surface_conditions =
@@ -289,7 +289,7 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "ammoniac-bacteria", amount = 14},
+      {type = "item", always_fresh = true, name = "ammoniac-bacteria", amount = 14},
       {type = "fluid", name = "fluoroketone-cold", amount = 100}
     },
     crafting_machine_tint =
@@ -304,13 +304,13 @@ data:extend({
   {
     type = "recipe",
     name = "algae-bacteria-cultivation",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria-cultivation.png",
-    category = "organic",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria-cultivation.png",
+    categories = {"organic"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-b[cultivation]-c[algae]",
     enabled = false,
     allow_productivity = true,
-    result_is_always_fresh = true,
+    
     allow_decomposition = false,
     energy_required = 4,
     surface_conditions =
@@ -328,8 +328,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "algae-bacteria", amount = 22},
-      {type = "item", name = "bioflux", amount = 1}
+      {type = "item", always_fresh = true, name = "algae-bacteria", amount = 22},
+      {type = "item", always_fresh = true, name = "bioflux", amount = 1}
     },
     crafting_machine_tint =
     {
@@ -345,8 +345,8 @@ data:extend({
   {
     type = "recipe",
     name = "algae-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/algae-bacteria.png",
-    category = "organic-or-hand-crafting",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/algae-bacteria.png",
+    categories = {"organic", "hand-crafting"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-a[bacteria]-c[algae]",
     enabled = false,
@@ -371,8 +371,8 @@ data:extend({
   {
     type = "recipe",
     name = "petro-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/petro-bacteria.png",
-    category = "organic-or-hand-crafting",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/petro-bacteria.png",
+    categories = {"organic", "hand-crafting"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-a[bacteria]-c[petro]",
     enabled = false,
@@ -397,8 +397,8 @@ data:extend({
   {
     type = "recipe",
     name = "thermo-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/thermo-bacteria.png",
-    category = "organic-or-hand-crafting",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/thermo-bacteria.png",
+    categories = {"organic", "hand-crafting"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-a[bacteria]-c[thermo]",
     enabled = false,
@@ -430,8 +430,8 @@ data:extend({
   {
     type = "recipe",
     name = "radio-bacteria",
-    icon = "__metal-and-stars-graphics-2__/graphics/icons/radio-bacteria.png",
-    category = "organic-or-hand-crafting",
+    icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/radio-bacteria.png",
+    categories = {"organic", "hand-crafting"},
     subgroup = "agriculture-processes",
     order = "e[bacteria]-a[bacteria]-c[radio]",
     enabled = false,

@@ -3,8 +3,8 @@ require ("__base__.prototypes.entity.biter-animations")
 require ("__base__.prototypes.entity.spitter-animations")
 require ("__base__.prototypes.entity.spawner-animation")
 
-local biter_ai_settings = require ("__base__.prototypes.entity.biter-ai-settings")
-local machina_enemy_autoplace = require ("__metal-and-stars__.prototypes.entity.machina-enemy-autoplace-utils")
+local biter_ai_settings = data.raw.unit["small-biter"].ai_settings
+local machina_enemy_autoplace = require ("__metal-and-stars-updated__.prototypes.entity.machina-enemy-autoplace-utils")
 local sounds = require ("__base__.prototypes.entity.sounds")
 local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local simulations = require("__base__.prototypes.factoriopedia-simulations")
@@ -37,7 +37,7 @@ end
 local function jellyfish_animation(tint1)
   return
   {
-    filename = "__metal-and-stars-graphics__/graphics/entity/jellyfish-small/jellyfish-4.png",
+    filename = "__metal-and-stars-graphics-updated__/graphics/entity/jellyfish-small/jellyfish-4.png",
     priority = "high",
     width = 128,
     height = 128,
@@ -141,7 +141,7 @@ data:extend({
       {
         layers = {
           {
-            filename = "__metal-and-stars-graphics__/graphics/entity/jellyfish-small/spawner/jelly-grape-emission.png",
+            filename = "__metal-and-stars-graphics-updated__/graphics/entity/jellyfish-small/spawner/jelly-grape-emission.png",
             priority = "high",
             frame_count = 1,
             repeat_count = 1,
@@ -256,7 +256,7 @@ data:extend({
     animations =   
     {
       {
-        filename = "__metal-and-stars-graphics__/graphics/entity/jellyfish-small/void-explosion.png",
+        filename = "__metal-and-stars-graphics-updated__/graphics/entity/jellyfish-small/void-explosion.png",
         draw_as_glow = true,
         blend_mode = "additive",
         priority = "high",

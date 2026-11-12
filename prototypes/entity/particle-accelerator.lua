@@ -5,17 +5,17 @@ local sounds = require("__base__.prototypes.entity.sounds")
 local item_name = "microgravity-lab"
 
 --technology
-local technology_icon = "__metal-and-stars-graphics__/graphics/icons/particle-accelerator.png"
+local technology_icon = "__metal-and-stars-graphics-updated__/graphics/icons/particle-accelerator.png"
 local technology_icon_size = 256
 --item
-local item_icon = "__metal-and-stars-graphics__/graphics/icons/particle-accelerator.png"
+local item_icon = "__metal-and-stars-graphics-updated__/graphics/icons/particle-accelerator.png"
 local item_icon_size = 64
 
 local building_entity = 
 {
   type = "lab",
   name = item_name,
-  icon = "__metal-and-stars-graphics__/graphics/icons/particle-accelerator.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/icons/particle-accelerator.png",
   flags = {"placeable-player", "player-creation"},
   minable = {mining_time = 0.2, result = item_name},
   max_health = 150,
@@ -24,7 +24,6 @@ local building_entity =
   collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
   selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
   damaged_trigger_effect = hit_effects.entity(),
-  effect_receiver = { base_effect = { productivity = 0.5 }},
   working_sound =
   {
     sound = { filename = "__base__/sound/lab.ogg", volume = 0.7, modifiers = { volume_multiplier("main-menu", 2.2), volume_multiplier("tips-and-tricks", 0.8) } },
@@ -32,10 +31,9 @@ local building_entity =
     fade_in_ticks = 4,
     fade_out_ticks = 20
   },
-  impact_category = "metal-large",
+  impact_category = "glass",
   open_sound = { filename = "__base__/sound/open-close/lab-open.ogg", volume = 0.6 },
   close_sound = { filename = "__base__/sound/open-close/lab-close.ogg", volume = 0.6 },
-  allow_productivity = true,
   energy_source =
   {
     type = "electric",
@@ -62,7 +60,7 @@ local building_entity =
   on_animation = {
     layers = {
       {
-        filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
+        filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
         priority = "high",
         width = 700,
         height = 600,
@@ -84,7 +82,7 @@ local building_entity =
         stripes =
         {
           {
-            filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
+            filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
             width_in_frames = 8,
             height_in_frames = 8,
           }
@@ -103,7 +101,7 @@ local building_entity =
         stripes =
         {
           {
-            filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation-emission.png",
+            filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation-emission.png",
             width_in_frames = 8,
             height_in_frames = 8,
           }
@@ -114,7 +112,7 @@ local building_entity =
   off_animation = {
     layers = {
       {
-        filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
+        filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
         priority = "high",
         width = 700,
         height = 600,
@@ -136,7 +134,7 @@ local building_entity =
         stripes =
         {
           {
-            filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
+            filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
             width_in_frames = 8,
             height_in_frames = 8,
           }

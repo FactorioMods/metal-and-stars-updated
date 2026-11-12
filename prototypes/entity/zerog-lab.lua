@@ -10,7 +10,7 @@ data:extend({
     {
         type = "lab",
         name = "microgravity-lab",
-        icon = "__metal-and-stars-graphics__/graphics/icons/particle-accelerator.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/icons/particle-accelerator.png",
         minable = {mining_time = 0.5, result = "microgravity-lab"},
         subgroup = "production-machine",
         order = "z-z[z-lab]",
@@ -18,12 +18,11 @@ data:extend({
         collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         max_health = 350,
-        impact_category = "metal-large",
+        impact_category = "metal",
         alert_icon_shift = util.by_pixel(0, -12),
         icon_draw_specification = {shift = {0, -0.3}},
         corpse = "lab-remnants",
         dying_explosion = "lab-explosion",
-        effect_receiver = { base_effect = { productivity = 0.5 }},
         resistances =
         {
           {
@@ -43,7 +42,7 @@ data:extend({
         on_animation = {
           layers = {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
               priority = "high",
               width = 700,
               height = 600,
@@ -65,7 +64,7 @@ data:extend({
               stripes =
               {
                 {
-                  filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
+                  filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
                   width_in_frames = 8,
                   height_in_frames = 8,
                 }
@@ -84,7 +83,7 @@ data:extend({
               stripes =
               {
                 {
-                  filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation-emission.png",
+                  filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation-emission.png",
                   width_in_frames = 8,
                   height_in_frames = 8,
                 }
@@ -95,7 +94,7 @@ data:extend({
         off_animation = {
           layers = {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-shadow.png",
               priority = "high",
               width = 700,
               height = 600,
@@ -117,7 +116,7 @@ data:extend({
               stripes =
               {
                 {
-                  filename = "__metal-and-stars-graphics__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
+                  filename = "__metal-and-stars-graphics-updated__/graphics/entity/particle-accelerator/particle-accelerator-hr-animation.png",
                   width_in_frames = 8,
                   height_in_frames = 8,
                 }
@@ -158,7 +157,7 @@ data:extend({
       {
         type = "item",
         name = "microgravity-lab",
-        icon = "__metal-and-stars-graphics__/graphics/icons/particle-accelerator.png",
+        icon = "__metal-and-stars-graphics-updated__/graphics/icons/particle-accelerator.png",
         subgroup = "production-machine",
         order = "z[z-microgravity-lab]",
         inventory_move_sound = item_sounds.mechanical_inventory_move,

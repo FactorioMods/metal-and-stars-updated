@@ -8,7 +8,7 @@ local building_entity =
 {
   type = "assembling-machine",
   name = item_name,
-  icon = "__metal-and-stars-graphics__/graphics/icons/chemical-stager.png",
+  icon = "__metal-and-stars-graphics-updated__/graphics/icons/chemical-stager.png",
   flags = {"placeable-neutral", "placeable-player", "player-creation"},
   minable = {mining_time = 0.2, result = item_name},
   max_health = 300,
@@ -104,7 +104,7 @@ local building_entity =
     animation = {
       layers = {
         {
-          filename = "__metal-and-stars-graphics__/graphics/entity/chemical-stager/chemical-stager-hr-shadow.png",
+          filename = "__metal-and-stars-graphics-updated__/graphics/entity/chemical-stager/chemical-stager-hr-shadow.png",
           priority = "high",
           width = 800,
           height = 600,
@@ -126,7 +126,7 @@ local building_entity =
           stripes =
           {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/chemical-stager/chemical-stager-hr-animation-1.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/chemical-stager/chemical-stager-hr-animation-1.png",
               width_in_frames = 8,
               height_in_frames = 8,
             },
@@ -150,7 +150,7 @@ local building_entity =
           stripes =
           {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/chemical-stager/chemical-stager-hr-emission-2.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/chemical-stager/chemical-stager-hr-emission-2.png",
               width_in_frames = 8,
               height_in_frames = 8,
             },
@@ -173,7 +173,7 @@ local building_entity =
           stripes =
           {
             {
-              filename = "__metal-and-stars-graphics__/graphics/entity/chemical-stager/chemical-stager-hr-emission-1.png",
+              filename = "__metal-and-stars-graphics-updated__/graphics/entity/chemical-stager/chemical-stager-hr-emission-1.png",
               width_in_frames = 8,
               height_in_frames = 8,
             },

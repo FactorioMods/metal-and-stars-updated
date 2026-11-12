@@ -1,13 +1,13 @@
-local shipyard_map_gen = require("__metal-and-stars__.prototypes.planet.shipyard.shipyard_map_gen")
-local asteroid_util = require("__metal-and-stars__.prototypes.planet.asteroid-spawn-definitions")
+local shipyard_map_gen = require("__metal-and-stars-updated__.prototypes.planet.shipyard.shipyard_map_gen")
+local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 local meld = require("meld")
 
 local machina = {
     type = "planet",
     name = "shipyard",
-    icon = "__metal-and-stars-graphics__/graphics/icons/shipyard-icon.png",
-    starmap_icon = "__metal-and-stars-graphics__/graphics/icons/shipyard-starmap.png",
+    icon = "__metal-and-stars-graphics-updated__/graphics/icons/shipyard-icon.png",
+    starmap_icon = "__metal-and-stars-graphics-updated__/graphics/icons/shipyard-starmap.png",
     starmap_icon_size = 512,
     map_gen_settings = meld.overwrite(shipyard_map_gen()),
     gravity_pull = 10,
@@ -19,7 +19,6 @@ local machina = {
     subgroup = "planets",
     pollutant_type = nil,
     solar_power_in_space = 200,
-    asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.calidusgate_shipyard, 0.9),
     surface_properties =
     {
         ["day-night-cycle"] = 1,

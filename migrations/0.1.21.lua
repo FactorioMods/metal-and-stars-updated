@@ -1,0 +1,1 @@
+require("migration-state").adopt()

@@ -4,7 +4,7 @@ PlanetsLib:extend({
   {
       type = "space-location",
       name = "redstar",
-      starmap_icon = "__metal-and-stars-graphics-2__/graphics/starmap/senestella-ring.png",
+      starmap_icon = "__metal-and-stars-graphics-2-updated__/graphics/starmap/senestella-ring.png",
       starmap_icon_size = 919,
       orbit = {
           parent = {
@@ -55,14 +55,14 @@ if shipyard then
                     orientation = 0.88, --0.133
                     sprite = {
                         type = "sprite",
-                        filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_mirandus.png",
+                        filename = "__metal-and-stars-graphics-2-updated__/graphics/starmap/orbits/orbit_mirandus.png",
                         size = 4096,
                     },
                 }
             }
         })
     if mods["visible-planets"] then
-      vp_override_planet_sprite("shipyard", "__metal-and-stars-graphics-2__/graphics/starmap/visible-planets/shipyard-visibleplanet.png", 1024)
+      vp_override_planet_sprite("shipyard", "__metal-and-stars-graphics-2-updated__/graphics/starmap/visible-planets/shipyard-visibleplanet.png", 1024)
     end 
 else
         log("shipyard planet data not found.")
@@ -83,7 +83,7 @@ if nix then
                     orientation = 0.8, --0.133
                     sprite = {
                         type = "sprite",
-                        filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_nix.png",
+                        filename = "__metal-and-stars-graphics-2-updated__/graphics/starmap/orbits/orbit_nix.png",
                         size = 4096,
                     },
                 }
@@ -109,7 +109,7 @@ if mirandus then
                     orientation = 0.75, --0.133
                     sprite = {
                         type = "sprite",
-                        filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_shipyard.png",
+                        filename = "__metal-and-stars-graphics-2-updated__/graphics/starmap/orbits/orbit_shipyard.png",
                         size = 4096,
                     },
                 }
@@ -122,9 +122,9 @@ end
 
 
 local ringworld = data.raw["planet"]["ringworld"]
-ringworld.starmap_icon = "__metal-and-stars-graphics-2__/graphics/icons/ringworld-icon.png"  
+ringworld.starmap_icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/ringworld-icon.png"  
 ringworld.starmap_icon_size = 64
-ringworld.icon = "__metal-and-stars-graphics-2__/graphics/icons/ringworld-icon.png"  
+ringworld.icon = "__metal-and-stars-graphics-2-updated__/graphics/icons/ringworld-icon.png"  
 ringworld.icon_size = 64
 if ringworld then
         PlanetsLib:update({
@@ -145,7 +145,7 @@ if ringworld then
 data.raw["planet"]["ringworld"].draw_orbit = false
 
     if mods["visible-planets"] then
-        vp_override_planet_sprite("ringworld", "__metal-and-stars-graphics-2__/graphics/starmap/visible-planets/ringworld-visibleplanet.png", 1000)
+        vp_override_planet_sprite("ringworld", "__metal-and-stars-graphics-2-updated__/graphics/starmap/visible-planets/ringworld-visibleplanet.png", 1000)
         vp_override_planet_scale("ringworld", 2.0)
     end 
 else

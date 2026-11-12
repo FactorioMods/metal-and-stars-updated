@@ -11,22 +11,6 @@ local tile_spritesheet_layout = tile_graphics.tile_spritesheet_layout
 
 local patch_for_inner_corner_of_transition_between_transition = tile_graphics.patch_for_inner_corner_of_transition_between_transition
 
-local empty_space_destroyed_item_trigger =
-{
-  type = "direct",
-  action_delivery =
-  {
-    type = "instant",
-    source_effects =
-    {
-      type = "create-trivial-smoke",
-      smoke_name = "light-smoke",
-      offset_deviation = {{-0.1, -0.1}, {0.1, 0.1}},
-      starting_frame_deviation = 5
-    }
-  }
-}
-
 data:extend
 {
       {
@@ -123,8 +107,6 @@ data:extend
         },
         layer_group = "zero",
         layer = 0,
-        destroys_dropped_items = true,
-        default_destroyed_dropped_item_trigger = empty_space_destroyed_item_trigger,
         effect = "space",
         effect_color = {0.5, 0.507, 0},
         effect_color_secondary = { 0, 68, 25 },
@@ -349,7 +331,7 @@ data:extend
     type = "tile",
     order = "a[oil]-b[deep]",
     subgroup = "fulgora-tiles",
-    collision_mask = tile_collision_masks.shallow_water(),
+    collision_mask = tile_collision_masks.water(),
     autoplace = {probability_expression = "grey_goo_noise"},
     layer = 3,
     layer_group = "water",
@@ -365,7 +347,7 @@ data:extend
     particle_tints = tile_graphics.fulgora_oil_ocean_particle_tints,
     sprite_usage_surface = "fulgora",
     variants = tile_variations_template_with_transitions(
-      "__metal-and-stars-graphics__/graphics/terrain/gray-goo-ocean.png",
+      "__metal-and-stars-graphics-updated__/graphics/terrain/gray-goo-ocean.png",
       {
         max_size = 4,
         [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -417,13 +399,13 @@ data:extend
         },
         --gradient map for thin film effect
         {
-          filename = "__metal-and-stars-graphics__/graphics/terrain/gray-goo-gradient.png",
+          filename = "__metal-and-stars-graphics-updated__/graphics/terrain/gray-goo-gradient.png",
           width = 512,
           height = 32
         },
         --specular highligts
         {
-          filename = "__metal-and-stars-graphics__/graphics/terrain/gray-goo-spec.png",
+          filename = "__metal-and-stars-graphics-updated__/graphics/terrain/gray-goo-spec.png",
           width = 512 * 4,
           height = 512 * 2
         },

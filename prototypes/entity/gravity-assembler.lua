@@ -1,6 +1,6 @@
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
-local asset_graphics = require("__metal-and-stars__.prototypes.entity.gravity-assembler-visuals")
+local asset_graphics = require("__metal-and-stars-updated__.prototypes.entity.gravity-assembler-visuals")
 local meld = require("meld")
 
 local item_name = "microgravity-assembler"
@@ -78,8 +78,7 @@ local building_entity =
   circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
   circuit_connector = circuit_connector_definitions["assembling-machine"],
   alert_icon_shift = util.by_pixel(0, -12),
-  crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid", "electronics", "nanotech", "electronics-with-fluid", "pressing"}
-,
+  crafting_categories = {"crafting",  "advanced-crafting", "nanotech"},
   crafting_speed = 3,
   energy_source =
   {
@@ -95,7 +94,7 @@ local building_entity =
   open_sound = sounds.machine_open,
   close_sound = sounds.machine_close,
   allowed_effects = {"speed", "consumption", "pollution", "productivity", "quality" },
-  effect_receiver = { base_effect = { productivity = 0.5 }, uses_module_effects = true, uses_beacon_effects = true, uses_surface_effects = true},
+  effect_receiver = {uses_module_effects = true, uses_beacon_effects = true, uses_surface_effects = true},
   impact_category = "metal",
   working_sound =
   {

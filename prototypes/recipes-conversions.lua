@@ -3,7 +3,7 @@ data:extend({
     {
       type = "recipe",
       name = "iron-ore-from-stone",
-      category = "quantum",
+      categories = {"quantum"},
       subgroup = "quantum-conversion",
       order = "c[conversion]-b[iron-ore]",
       energy_required = 6.4,
@@ -19,7 +19,7 @@ data:extend({
     {
         type = "recipe",
         name = "copper-ore-from-iron-ore",
-        category = "quantum",
+        categories = {"quantum"},
         subgroup = "quantum-conversion",
         order = "c[conversion]-b[copper-ore]",
         energy_required = 6.4,
@@ -35,7 +35,7 @@ data:extend({
     {
         type = "recipe",
         name = "stone-from-copper-ore",
-        category = "quantum",
+        categories = {"quantum"},
         subgroup = "quantum-conversion",
         order = "c[conversion]-b[stone]",
         energy_required = 6.4,
